@@ -32,15 +32,15 @@ function App() {
           <div className="container">
             <div id="timeCount" style={{ display: "flex" }}>
               <div style={{ padding: "20px" }}>
-                {countHour} :<span style={{ display: "block" }}> ชั่วโมง</span>
+                {countHour} :<span style={{ display: "block" }}>ชั่วโมง</span>
               </div>
 
               <div style={{ padding: "20px" }}>
-                {countMinute} :<span style={{ display: "block" }}> นาที</span>
+                {countMinute} :<span style={{ display: "block" }}>นาที</span>
               </div>
 
               <div style={{ padding: "20px" }}>
-                {countSecond} <span style={{ display: "block" }}> วินาที</span>
+                {countSecond} <span style={{ display: "block" }}>วินาที</span>
               </div>
             </div>
           </div>
